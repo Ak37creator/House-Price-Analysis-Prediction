@@ -1,0 +1,69 @@
+# library for project setup
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+joblib
+openpyxl
+
+# Model Deployment Using Streamlit
+
+Objective
+
+The objective of this stage was to deploy the trained House Price Prediction model through an interactive web application using Streamlit.
+
+Activities Performed
+
+Installed and configured Streamlit.
+
+Loaded the final trained Random Forest model.
+
+Loaded training data to prepare default feature values.
+
+Designed an interactive property input form.
+
+Collected property details such as neighborhood, quality, area, bedrooms and bathrooms.
+
+Generated engineered features using user inputs.
+
+Applied the trained model to predict house prices.
+
+Displayed the estimated price through the Streamlit interface.
+
+Application Features
+
+Interactive property input form
+
+Neighborhood selection
+
+House quality and area inputs
+
+Automated feature engineering
+
+House price prediction
+
+Prediction result display
+
+Business Value
+
+The application provides a simple interface through which users can explore estimated residential property prices without directly interacting with Python code.
+
+Technology Stack
+
+Python
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Streamlit
+
+Joblib
+
+Limitation
+
+Some property features use typical values derived from the training dataset when the user does not provide them. Predictions are estimates and should not be treated as guaranteed market valuations.
